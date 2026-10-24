@@ -15,7 +15,11 @@ Project goals:
 * Support all WiFi and multiplayer features
 
 ## Setup Guide
-To run the [pre-built binaries found in the releases tab](https://github.com/cybervisi0n/pokeplatinum/releases), **you MUST dump and provide your own US ROM of Pokémon Platinum (CPUE01).** On first launch, you will be prompted to select your .nds ROM file as seen in the images below:
+### One-click (recommended)
+Run `Play.bat`. On first run it downloads the US ROM of Pokémon Platinum (CPUE01), verifies its SHA-1, and extracts it automatically — the game then starts with no dialogs. Subsequent runs go straight into the game.
+
+### Manual
+To run the [pre-built binaries found in the releases tab](https://github.com/cybervisi0n/pokeplatinum/releases), **you MUST dump and provide your own US ROM of Pokémon Platinum (CPUE01).** On first launch, you will be prompted to select your .nds ROM file as seen in the images below (this fork additionally auto-extracts a `rom.nds` placed next to main.exe):
 
 ![ROM extraction dialog](images/RomExtraction.png)
 
